@@ -1,0 +1,12 @@
+Yasmeen Awad
+MacOS
+Network Tools Scavenger Hunt
+
+1.  10.0.0.236
+2.  Use the command nslookup <host-name>
+3.  Use nslookup <IP-address>
+4.  The command scp securely copies a file from one computer to another. 
+5.  Use lsof -i :<port-number>
+6.  Use lsof -nP +c 15 | grep LISTEN
+7.  Use curl <url> > <outfile-name>
+8.  Use curl --verbose <url>
