@@ -1,0 +1,16 @@
+Yasmeen Awad
+Wireshark Assignment
+
+===== DAYTIME =====
+(1)
+
+1 10.0.2.15 129.6.15.28 TCP 74 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=3515925371 TSecr=0 WS=128
+2 129.6.15.28 10.0.2.15 TCP 60 [SYN, ACK] Seq=0 Ack=1 Win=32768 Len=0 MSS=1460
+3 10.0.2.15 129.6.15.28 TCP 54 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+
+(2)
+Port 47332. The client needs a port because communication goes both ways. The client needs
+to send a packet to the relevant port on the server, and the server needs to send a packet
+to the relevant port at the client's IP address. 
+
+(3)
