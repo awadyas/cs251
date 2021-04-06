@@ -14,3 +14,24 @@ to send a packet to the relevant port on the server, and the server needs to sen
 to the relevant port at the client's IP address. 
 
 (3)
+Frame 4............
+
+(4)
+?
+
+(5)
+Synchronize
+
+(6)
+Acknowledge
+
+(7)
+Finish
+
+(8)
+The daytime server initiated the closing of connection, which is apparent because the 
+daytime server sends the [FIN] message and the nc client sends the [ACK], acknowledging
+the message.
+
+===== HTTP =====
+(1)
