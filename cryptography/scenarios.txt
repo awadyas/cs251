@@ -1,0 +1,17 @@
+Yasmeen Awad
+Cryptographic scenarios
+
+1. Alice and Bob use Diffie-Hellman to agree on a shared secret key K. They then use symmetric encryption
+to encrypt the message in chunks (as large as the algorithm will allow) using the shared secret key K, 
+using K to both encrypt and decrypt the ciphertext. 
+
+2. Alice should encrypt each chunk of her large message with her secret key S_Alice, then with Bob's public 
+key P_Bob before sending it over to Bob. This way, when Bob goes to decrypt each chunk of message with 
+Alice's public key P_Alice first, then his own secret key S_Bob, he will only get the original message in
+legible text if there was no person-in-the-middle attack. 
+
+If Mal makes a mal-in-the-middle attack, Bob will know because using Alice's public key to decrypt the 
+message would not work (it would likely produce gibberish). Bob would have to use Mal's public key 
+instead of Alice's to properly decrypt the message.
+
+3. 
